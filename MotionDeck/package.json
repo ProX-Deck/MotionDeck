@@ -1,0 +1,14 @@
+{
+  "name": "motiondeck-dist",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "setup": "npx puppeteer browsers install chrome --base-url=https://registry.npmmirror.com/-/binary/chrome-for-testing"
+  },
+  "dependencies": {
+    "puppeteer": "^25.10.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

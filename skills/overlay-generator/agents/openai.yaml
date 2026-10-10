@@ -1,0 +1,4 @@
+interface:
+  display_name: "Overlay Generator"
+  short_description: "根据 SRT 为 MotionDeck 生成动效编排 JSON"
+  default_prompt: "使用 $overlay-generator 根据这份 SRT 生成可导入 MotionDeck 的动效编排 JSON。"
